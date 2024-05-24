@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light{
+    width: 150px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: auto;
+}
+.light{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.glow{
+    box-shadow: -2px 0px 50px 17px rgba(255,255,255,1);
+    -webkit-box-shadow: -2px 0px 50px 17px rgba(255,255,255,1);
+    -moz-box-shadow: -2px 0px 50px 17px rgba(255,255,255,1);
+}
